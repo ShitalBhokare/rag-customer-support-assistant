@@ -42,6 +42,7 @@ class ServiceContainer:
         self.embedding_service = EmbeddingService(
             model_name=settings.embedding_model_name,
             batch_size=settings.embedding_batch_size,
+            hf_token=settings.hf_token,
         )
         self.vector_store = VectorStoreService(str(settings.chroma_dir))
         self.escalation_store = EscalationStore(settings.escalation_db_path)

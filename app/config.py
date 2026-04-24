@@ -25,6 +25,7 @@ class Settings(BaseSettings):
         default="sentence-transformers/all-MiniLM-L6-v2",
         alias="EMBEDDING_MODEL_NAME",
     )
+    hf_token: str | None = Field(default=None, alias="HF_TOKEN")
     embedding_batch_size: int = Field(default=32, alias="EMBEDDING_BATCH_SIZE")
     chunk_size: int = Field(default=1200, alias="CHUNK_SIZE")
     chunk_overlap: int = Field(default=200, alias="CHUNK_OVERLAP")
