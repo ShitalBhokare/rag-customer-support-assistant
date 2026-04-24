@@ -803,3 +803,15 @@ This project demonstrates the design and implementation of a RAG-based customer 
 
 It reflects production-level understanding of:
 RAG systems, LLM orchestration, and scalable backend design.
+
+---
+
+## 👤 Author
+
+**Shital Bhokare**  
+AI/ML & Generative AI Developer  
+
+🔗 GitHub: https://github.com/ShitalBhokare  
+🔗 LinkedIn: https://www.linkedin.com/in/shital-bhokare-798262352/
+
+---
