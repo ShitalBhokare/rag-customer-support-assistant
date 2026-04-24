@@ -5,6 +5,7 @@ from functools import lru_cache
 from sentence_transformers import SentenceTransformer
 from transformers.utils import logging as transformers_logging
 
+# from app.config import get_config
 
 class EmbeddingService:
     def __init__(
